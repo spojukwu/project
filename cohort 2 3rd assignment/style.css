@@ -1,0 +1,76 @@
+header {
+  border: 2px solid brown;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+}
+nav {
+  width: 650px;
+  display: flex;
+  justify-content: space-between;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+}
+.logo {
+  width: 40px;
+}
+.login-signup a {
+  margin-right: 10px;
+  text-decoration: none;
+}
+.login :hover{
+  color: black;
+}
+.signup :hover{
+  background-color:transparent;
+  color: white;
+}
+section {
+  display: flex;
+  margin-top: 40px;
+  border: 2px solid green;
+  padding: 5px;
+  gap: 10px;
+}
+.left-side {
+  width: 60%;
+  border: 2px solid rgb(87, 1, 87);
+  padding: 5px;
+}
+.right-side {
+  width: 40%;
+  border: 2px solid purple;
+  position: relative;
+}
+.title1 {
+  display: flex;
+  border: 2px solid red;
+  padding: 10px;
+}
+.title2 {
+  display: flex;
+  border: 2px solid red;
+  margin-top: 5px;
+  padding: 10px;
+}
+.title-logo {
+  width: 20%;
+}
+.right-side-logo {
+  width: 70%;
+}
+.right-side-text {
+  position: absolute;
+  top: 0;
+  padding: 10px;
+}
+.submit {
+  width: 100%;
+  background-color: orange;
+  color: white;
+  border: none;
+  padding: 5px;
+}
